@@ -4,6 +4,6 @@ What I learned: no matter how much you delete of various superfluous files and s
 
 Pixelapse didn't exist when I started learning Adobe Photoshop in high school.  I'm absolutely certain that if it had, my Visual Imaging course would have made learning how to navigate it mandatory for the course.  That and <a href="http://www.creativebloq.com/wireframes/top-wireframing-tools-11121302" target="_blank">pretty much any wireframing tool on this very comprehensive list from Creative Bloq</a>.
 
-As it is, I'm restarting the project from scratch and posting the results both here and on my <a href="https://github.com/angelfirenze01" target="_blank">Github account</a>.
+As it is, I'm restarting the project from scratch and posting the results both here and on my <a href="https://github.com/Angelfirenze01" target="_blank">Github account</a>.
 
 I hope you'll enjoy it, too.
