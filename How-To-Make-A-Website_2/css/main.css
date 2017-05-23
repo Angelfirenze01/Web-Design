@@ -106,8 +106,9 @@ PORTFOLIO
 
 #gallery {
 	margin: 0;
-	padding: 0;
+	padding: 0 5px;
 	list-style: none;
+	font-style: 'Exo', cursive;
 }
 
 #gallery li {
@@ -122,9 +123,9 @@ PORTFOLIO
 
 #gallery li a p {
 	margin: 0;
-	padding: 5%;
+	padding: 0;
 	font-size: 0.75ems;
-	color: #bdc3c7;
+	color: #ccc;
 }
 
 /**************************
@@ -155,6 +156,10 @@ h2 {
 	font-family: 'Shadows Into Light', cursive;
 }
 
+p {
+	font-family: 'Exo', cursive;
+}
+
 /********************************
 NAVIGATION LINKS
 *********************************/
@@ -162,22 +167,29 @@ NAVIGATION LINKS
 
 nav {
 	background: #358983;
+	font-family: 'Exo', cursive;
+	color: #ccc;
 }
 /* visited nav link element */
 nav a, nav a:visited {
-	font-family: 'Shadows Into Light', cursive;
-	color: #fff;
+	font-family: 'Exo', cursive;
+	color: #ccc;
+}
+
+nav a:hover {
+	font-family: 'Exo', cursive;
+	color: #ccc;
 }
 
 /* selected nav hover link element */
 nav a.selected, nav a:hover {
-	font-family: 'Shadows Into Light', cursive;
-	color: #999;
+	font-family: 'Exo', cursive;
+	color: #fff;
 }
 
 /* paragraph element */
 
 p {
 	color: #999;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Exo', cursive;
 }
