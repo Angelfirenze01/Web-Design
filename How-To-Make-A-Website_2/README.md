@@ -1,4 +1,4 @@
-I rewrote the entire <a href="https://teamtreehouse.com/home" target="_blank">Team Treehouse</a> How To Make A Website course after reviewing the first parts and realizing I don't like <a href="" target="_blank">my original written with the boilerplate design specs.
+I rewrote the entire <a href="https://teamtreehouse.com/home" target="_blank">Team Treehouse</a> How To Make A Website course after reviewing the first parts and realizing I don't like my <a href="" target="_blank">original</a> written with the boilerplate design specs.
 
 I realized it was a lot more interesting if I used my own photographs saved in my Instagram account, and my Photobucket.
 
