@@ -21,10 +21,16 @@ body {
 
 a {
 	text-decoration: none;
+	color: #999;
 }
 
 img {
 	max-width: 100%;
+	position: relative;
+}
+
+h3 {
+	margin: 0 0 1em 0;
 }
 
 /**************************
@@ -36,6 +42,11 @@ header {
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
+}
+
+header {
+	text-align: center;
+	padding: 5px 0 5px 0;
 }
 
 #logo {
@@ -52,9 +63,11 @@ h1 {
 }
 
 h2 {
+	font-family: 'Exo', curisve;
 	font-size: 0.75em;
 	margin: -5px 0 0;
 	font-weight: normal;
+	color: #ccc;
 }
 
 /**************************
@@ -64,7 +77,7 @@ NAVIGATION
 nav {
 	text-align: center;
 	padding: 10px;
-	margin: 20px 0 0;
+	margin: 20px 0 0 0;
 }
 
 nav ul {
@@ -74,7 +87,8 @@ nav ul {
 }
 
 nav li {
-	display: inline block;
+	list-style: none;
+	display: inline-block;
 }
 
 nav a {
@@ -87,6 +101,7 @@ FOOTER
 ***************************/
 
 footer {
+	font-family: 'Shadows Into Light', cursive;
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
@@ -101,14 +116,16 @@ footer {
 }
 
 /**************************
-PORTFOLIO
+PAGE: PORTFOLIO
 ***************************/
 
 #gallery {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	list-style: none; 
 }
+
+/* Gallery list items */
 
 #gallery li {
 	float: left;
@@ -123,8 +140,23 @@ PORTFOLIO
 #gallery li a p {
 	margin: 0;
 	padding: 5%;
-	font-size: 0.75ems;
-	color: #bdc3c7;
+	font-size: 0.75em;
+	color: #ccc;
+}
+
+#gallery p {
+	font-family: 'Exo', cursive;
+}
+
+/**************************
+PAGE: ABOUT
+***************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
 }
 
 /**************************
@@ -138,21 +170,28 @@ body {
 	color: #000;
 }
 
-/* Prussian blue header, seafoam green border */
+/* Prussian blue header, seafoam green border, light-grey border */
 
 header {
 	background: #356983;
-	border-color: #fff;
+	border-color: #ccc;
+	width: 100%;
 }
 
 /* logo text */
 
 h1, h2 {
+	margin: 1px;
 	color: #fff;
+	text-align: auto;
 }
 
 h2 {
 	font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+	font-family: 'Exo', cursive;
 }
 
 /********************************
@@ -162,22 +201,30 @@ NAVIGATION LINKS
 
 nav {
 	background: #358983;
+	font-family: 'Exo', cursive;
+	color: #ccc;
+	width: 100%;
 }
 /* visited nav link element */
 nav a, nav a:visited {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Exo', cursive;
 	color: #fff;
+}
+
+nav a:hover {
+	font-family: 'Exo', cursive;
+	color: #ccc;
 }
 
 /* selected nav hover link element */
 nav a.selected, nav a:hover {
-	font-family: 'Shadows Into Light', cursive;
-	color: #999;
+	color: #ccc;
+	font-family: 'Exo', cursive;
 }
 
 /* paragraph element */
 
 p {
 	color: #999;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Exo', cursive;
 }
