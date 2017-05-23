@@ -55,16 +55,22 @@ h2 {
 	font-size: 0.75em;
 	margin: -5px 0 0;
 	font-weight: normal;
+	color: #ccc;
 }
 
 /**************************
 NAVIGATION
 ***************************/
 
+header {
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
 nav {
 	text-align: center;
 	padding: 10px;
-	margin: 20px 0 0;
+	margin: 20px 0 0 0;
 }
 
 nav ul {
@@ -74,7 +80,7 @@ nav ul {
 }
 
 nav li {
-	display: inline block;
+	display: inline-block;
 }
 
 nav a {
@@ -87,6 +93,7 @@ FOOTER
 ***************************/
 
 footer {
+	font-family: 'Shadows Into Light', cursive;
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
@@ -105,10 +112,10 @@ PORTFOLIO
 ***************************/
 
 #gallery {
-	margin: 0;
+	margin: 5px 5px;
 	padding: 0 5px;
 	list-style: none;
-	font-style: 'Exo', cursive;
+	font-family: 'Exo', cursive;
 }
 
 #gallery li {
@@ -117,6 +124,7 @@ PORTFOLIO
 	margin: 2.5%;
 	background-color: #f5f5f5;
 	color: #ccc;
+	font-family: 'Exo', cursive;
 }
 
 /* Gallery list items, anchors, paragraphs */
@@ -183,8 +191,8 @@ nav a:hover {
 
 /* selected nav hover link element */
 nav a.selected, nav a:hover {
-	font-family: 'Exo', cursive;
 	color: #fff;
+	font-family: 'Exo', cursive;
 }
 
 /* paragraph element */
