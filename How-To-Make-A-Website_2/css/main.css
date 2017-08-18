@@ -21,7 +21,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #999;
+	color: #000;
 }
 
 img {
@@ -153,7 +153,7 @@ PAGE: ABOUT
 ***************************/
 
 .profile-photo {
-	display: inline-flex;
+	display: block;
 	max-width: 150px;
 	margin: 0 auto 40px;
 	border-radius: 100%;
