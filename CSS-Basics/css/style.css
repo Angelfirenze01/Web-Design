@@ -107,7 +107,8 @@ a:active {
  height: 850px;
 
  background: linear-gradient(#ffa949, transparent 80%),
-              #ffa949 url(http://img.photobucket.com/albums/v204/Angelfirenze/Team%20Treehouse/mountains_zpsbhhtexiw.jpg) no-repeat center;
+
+             #ffa949 url(http://img.photobucket.com/albums/v204/Angelfirenze/Team%20Treehouse/mountains_zpsbhhtexiw.jpg) no-repeat center;
 
  background-size: cover;
 }
@@ -175,8 +176,8 @@ a:active {
   margin: 105px 0 60px;
   background: #434a52 url(http://img.photobucket.com/albums/v204/Angelfirenze/Team%20Treehouse/bear_zpsq4ffikut.jpg) no-repeat center;
   background-size: cover;
-  box-shadow: 15px 15px 10px rgba(0, 0, 0, .8),
-  inset 0 0 50px 10px rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 10px rgba(0,0,0, .8),
+  inset 0 0 50px 10px rgba(0,0,0, 1);
   border-radius: 50px 10px;
 }
 
@@ -208,7 +209,7 @@ a:active {
 	clear: both;
 }
 
-/* Media Queries --------------------
+/* Media Queries --------------------*/
 
 @media (max-width: 960px) {
   body {
@@ -229,8 +230,6 @@ a:active {
      p {
     color: #fff;
   }
-
-  ---------------------------- */
 
   @media (max-width: 1024px) {
     .primary content,
@@ -260,13 +259,15 @@ a:active {
         font-size: 1.3rem;
         border: none;
       }  
+      
       h1 {
         font-size: 5rem;
         line-height: 1.1;
       }
-      /*.arrow {
+      
+      .arrow {
         display: none;
-      }*/
+      }
 
     .intro {
       font-size: 1rem;
