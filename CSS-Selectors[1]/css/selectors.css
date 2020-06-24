@@ -4,11 +4,13 @@
 [class="form-contact"] {
   padding: 20px 24px;
   background: #f4f7f8;
-} 
+}
+
 div[id="container"] {
   max-width: 500px;
   margin: auto;
 } 
+
 */
 
 .form-contact {  /* Class selectors have periods. */
@@ -22,12 +24,14 @@ div[id="container"] {
 }
 
 /* 
+
 input[type="text"] {
   background: #fdfee6;
 }
 input[type="placeholder"] {
   background: #fdfee6;
 }
+
 */
 
 input[type="email"] {
@@ -35,11 +39,13 @@ input[type="email"] {
 }
 
 /*
+
 input[type="button"],
 input[type="reset"],
 input["submit"] {
  cursor: pointer;
 }
+
 */
 
 a[target="_blank"] {
@@ -85,6 +91,8 @@ a[target="_blank"] {
   background-color: #ff784f;
 }
 
+ /* [General (djacent) Sibling Selector] */
+
 @media (min-width: 769px) {
   .inln {
     width: auto;
@@ -94,10 +102,12 @@ a[target="_blank"] {
     margin-left: 20px;
   }
 }
+
 /* Space is descendant selector */
+
 /* Combinators ------------- */
 
-form > a { > /* greater than sign is child selector */
+form > a { > /* whitespace between two selectors is a combinator, the greater than sign is child combinator */
   font-size: .7em;
 }
 
@@ -106,3 +116,15 @@ h1 ~ label { /* tilde is general sibling selector, targets all following sibling
   color: #fff;
   padding: 5px;
 }
+
+/* REVIEW 
+
+   * Don't Repeat Yourself 
+
+   * We can define specific child and sibling selectors with combinators
+
+   ">" targets a direct child of an element
+
+   "+" targets immediate siblings 
+
+   "~" targets all the specified siblings that follow an element */
