@@ -26,6 +26,9 @@ a {
 a[href^="http://"] {  /* Defines begins-with selector. */
 	color: #52bab3;
 	text-decoration: none;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	padding-left: 25px;
 }
 
 a[href$=".pdf"] {
@@ -56,4 +59,3 @@ a[src*="thumb"] {
 img[src*="bay"] {
 	border: #ff0000;
 }
-
