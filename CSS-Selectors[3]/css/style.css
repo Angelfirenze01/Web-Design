@@ -23,39 +23,22 @@ a {
 
 /* Substring Matching Attribute Selectors ---- */
 
-a[href^="http://"] {  /* Defines begins-with selector. */
-	color: #52bab3;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-size: 18px 18px;
-	padding-left: 25px;
+a[href^="http://"] {  /*Begins With Attribute Selectors*/
+  color: #52bab3;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  padding-left: 25px;
 }
 
-a[href$=".pdf"] {
-	background-image: url('../img/icn-pdf.svg')
+a[href$=".pdf"] {  /*Ends With Attribute Selectors*/
+  background-image: url('../img/icn-pdf.svg');
 }
 
 a[href$=".jpg"] {
-	background-image: url('../img/icn-picture.svg')
+  background-image: url('../img/icn-picture.svg');
 }
 
 a[href$=".zip"] {
-	background-image: url('../img/icn-zip.svg')
-}
-
-a[href*="downloads"] {
-	background-repeat: no-repeat;
-	background-size: 18px 18px;
-	padding-left: 25px;
-}
-
-a[src*="thumb"] {
-	margin: 4px;
-	border: solid 2px;
-	width: 140px;
-	height: 140px;
-}
-
-img[src*="bay"] {
-	border: #ff0000;
+  background-image: url('../img/icn-zip.svg');
 }
