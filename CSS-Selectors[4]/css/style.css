@@ -23,7 +23,7 @@ a {
 
 /* Substring Matching Attribute Selectors ---- */
 
-a[href^="http:"] {
+a[href^="http:"] {  /* Contains Selector */
   color: #52bab3;
   text-decoration: none;
 }
