@@ -54,7 +54,7 @@ a[target="_blank"] {
   border-bottom: 1px dotted;
 }
 
-/* DRY Classes ------------- */
+/* D[on't]R[epeat]Y[ourself] Classes ------------- */
 
 .br {
   border-radius: .5em;
