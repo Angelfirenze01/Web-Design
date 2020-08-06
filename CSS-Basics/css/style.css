@@ -11,7 +11,7 @@
 /* Base Styles -------------------- */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -61,8 +61,8 @@ h3 {
 }
 
 img {
-	max-width: 100%;
-	margin-bottom: 20px;
+  max-width: 100%;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -75,10 +75,10 @@ li {
 }
 
 /* li {
-	display: inline-block;
-	padding: 0 12px;
-	border-right: solid 1px;
-	margin: 80px 0;
+  display: inline-block;
+  padding: 0 12px;
+  border-right: solid 1px;
+  margin: 80px 0;
 } /*
 
 /* Pseudo-classes ------------------ */
@@ -134,17 +134,17 @@ a:active {
 }
 
 .secondary-content {
-	padding-top: 80px;
-	padding-bottom: 70px;
-	border-bottom: 2px solid #dfe2e6;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
 }
 
 .callout {
-	font-size: 1.25em;
-	border-bottom: 3px solid;
-	padding: 0 9px 3px;
-	margin-top: 20px;
-	display: inline-block;
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .main-footer {
@@ -169,7 +169,7 @@ a:active {
 }
 
 .wildlife {
-	color: #fff;
+  color: #fff;
   text-align: left;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
@@ -182,7 +182,7 @@ a:active {
 }
 
 .arrow {
-	width: 50px;
+  width: 50px;
   margin-top: 150px;
 }
 
@@ -190,31 +190,34 @@ a:active {
 
 .resorts, 
 .tips {
-	width: 46.5%;
+  width: 46.5%;
 }
 
 .tips {
-	float: left;
+  float: left;
 }
 
 .resorts {
-	float: right;
+  float: right;
 }
 
 /* Float Clearfix ------------------ */
 
 .group:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Media Queries --------------------*/
 
-@media (max-width: 960px) {
+@media /*all*/ (max-width: 960px) {
   body {
     background: #4169e1;
   }
+  p {
+
+    color: #fff;
 }
 
 @media (max-width: 480px) {
