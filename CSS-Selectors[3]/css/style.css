@@ -42,3 +42,9 @@ a[href$=".jpg"] {
 a[href$=".zip"] {
   background-image: url('../img/icn-zip.svg');
 }
+
+a[href*="downloads"] { /*Contains Selector*/
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  padding-left: 25px;
+}
