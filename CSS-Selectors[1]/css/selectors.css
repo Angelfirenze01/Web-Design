@@ -1,6 +1,6 @@
-/* Attribute Selectors ------------- */
+/* Attribute Selectors -------------
 
-/*
+
 [class] {
   color: #f00;
 }
@@ -71,8 +71,9 @@ a[target="_blank"] {
   font-size: .875em;
   font-weight: 400;
   color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+ /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 20px 0;
   text-transform: uppercase;
 }
 
@@ -92,13 +93,13 @@ a[target="_blank"] {
   .inln {
   width: auto;
   display: inline-block;
-}
-
-/* Combinators ------------- */
+  }
 
   .btn + .btn {
   margin-left: 20px;
 }
+
+/* Combinators ------------- */
 
 form > a {
   font-size: .7em;
@@ -109,3 +110,15 @@ h1 ~ label {
   color: #fff;
   padding: 5px;
 }
+
+/* REVIEW 
+
+   * Don't Repeat Yourself 
+
+   * We can define specific child and sibling selectors with combinators
+
+   ">" targets a direct child of an element
+
+   "+" targets immediate siblings 
+
+   "~" targets all the specified siblings that follow an element */
