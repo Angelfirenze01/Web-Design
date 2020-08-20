@@ -1,19 +1,24 @@
 /* Structural Pseudo-classes------------------ */
 
 li:first-child {
-	background: #52bab3;
-	color: #fff;
+  background: #52bab3;
+  color: #fff;
 }
 
 li:last-child {
-	border: none;
+  border: none;
 }
 
-span:only-child {
-	color: #52bab3;
-	font-size: 1.5em;
+li:only-child {
+  color: #52bab3;
+  font-size: 1.5em;
 }
 
 li:empty {
-	background-color: #ff6347;
+  background-color: #ff6347;
 }
+<<<<<<<
+
+=======
+
+>>>>>>>

@@ -1,7 +1,11 @@
-/* Attribute Selectors ------------- */
+/* Attribute Selectors -------------
 
-/* 
-form[class="form-contact"] {
+
+[class] {
+  color: #f00;
+}
+
+form[class="form-contact] {
   padding: 20px 24px;
   background: #f4f7f8;
 }
@@ -9,27 +13,30 @@ form[class="form-contact"] {
 div[id="container"] {
   max-width: 500px;
   margin: auto;
-} 
-
-*/
-
-.form-contact {  /* Class selectors have periods. */
-  padding: 20px 24px;
-  background: #f4f7f8;
 }
 
-#container {  /* ID selectors have pound symbols. */
+.form-contact {
+padding: 20px 24px;
+background: #f4f7f8;
+}
+
+#container {
   max-width: 500px;
   margin: auto;
 }
 
-/* 
-
 input[type="text"] {
   background: #fdfee6;
 }
+
 input[type="placeholder"] {
   background: #fdfee6;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
 }
 
 */
@@ -38,23 +45,13 @@ input[type="email"] {
   background: #fdfee6;
 }
 
-/*
-
-input[type="button"],
-input[type="reset"],
-input["submit"] {
- cursor: pointer;
-}
-
-*/
-
 a[target="_blank"] {
   color: #39add1;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
 
-/* DRY Classes ------------- */
+/* D[on't]R[epeat]Y[ourself] Classes ---------------- */
 
 .br {
   border-radius: .5em;
@@ -74,8 +71,9 @@ a[target="_blank"] {
   font-size: .875em;
   font-weight: 400;
   color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+ /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 20px 0;
   text-transform: uppercase;
 }
 
@@ -91,27 +89,23 @@ a[target="_blank"] {
   background-color: #ff784f;
 }
 
- /* [General (djacent) Sibling Selector] */
-
 @media (min-width: 769px) {
   .inln {
-    width: auto;
-    display: inline-block;
+  width: auto;
+  display: inline-block;
   }
-  .btn + .btn {  /* plus sign is adjacent sibling selector */
-    margin-left: 20px;
-  }
-}
 
-/* Space is descendant selector */
+  .btn + .btn {
+  margin-left: 20px;
+}
 
 /* Combinators ------------- */
 
-form > a { > /* whitespace between two selectors is a combinator, the greater than sign is child combinator */
+form > a {
   font-size: .7em;
 }
 
-h1 ~ label { /* tilde is general sibling selector, targets all following sibling label elements */
+h1 ~ label {
   background: #ff6347;
   color: #fff;
   padding: 5px;
