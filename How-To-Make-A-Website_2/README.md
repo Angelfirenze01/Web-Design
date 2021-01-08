@@ -6,4 +6,4 @@ I found out today that I've enjoyed the course a lot more while thinking up my o
 
 <img src="https://i.imgur.com/J0h8HDg.png"> 
 
-<center>&copy 2020 Treehouse Island, Inc.</center>
+<center>&copy 2021 Treehouse Island, Inc.</center>
