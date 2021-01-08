@@ -2,7 +2,7 @@ I rewrote the entire <a href="https://teamtreehouse.com/home" target="_blank">Te
 
 I realized it was a lot more interesting, not to mention much more fun, if I used my own photographs saved in my Instagram account, and my Photobucket.
 
-I found out today that I've enjoyed the course a lot more while thinking up my own styles to impart upon the original stylesheet.
+I found out afterward that I've enjoyed the course a lot more while thinking up my own styles to impart upon the original stylesheet.
 
 <img src="https://i.imgur.com/J0h8HDg.png"> 
 
