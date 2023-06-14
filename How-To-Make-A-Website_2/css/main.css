@@ -49,6 +49,19 @@ header {
 	padding: 5px 0 5px 0;
 }
 
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
 #logo {
 	text-align: center;
 	margin: 10px;
