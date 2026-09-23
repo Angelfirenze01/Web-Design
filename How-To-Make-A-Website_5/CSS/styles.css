@@ -1,0 +1,48 @@
+* {
+	
+	
+}
+
+body {
+background-color: #bc8f8f;
+ 
+}
+
+.meat {
+	color: #75474a;
+	font-weight: 800; 		
+}
+
+
+#ingredients {
+	background-color: #33eeea;
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+#intro img {
+	border: #75474a 5px solid;
+}
+
+a {
+	color: 3aa7d7a;
+}
+
+header, footer, main, div {
+background-color: #ffffff;
+border: #000000 1px;
+
+}
+
+a {
+
+color: #aa7d74;;
+
+}
+
+header, main, footer:
+{
+	max-width: 800px;
+	margin: 0;
+	
+} 

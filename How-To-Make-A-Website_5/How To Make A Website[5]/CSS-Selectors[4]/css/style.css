@@ -1,0 +1,34 @@
+/* UI element states pseudo-classes ------------ */
+
+input:focus,
+textarea:focus {
+  border-color: #52bab3;
+}
+
+:disabled {
+  background: #ddd;
+}
+
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+
+/* 
+
+<b>:first-child</b> - select the first and last child of a parent
+<b>:last-child</b> - targets elements with no siblings
+<b>:empty</b> - targets elements with no children or content
+
+<b>Substring matching attribute selectors</b> - match specific pieces of an attribute's value 
+
+<b>^</b> tells the browser to match a piece of code that's at the beginning of an attribute's value
+
+<b>$</b> matches a piece at the end of an attribute's value 
+
+<b>*</b> matches any part of an attribute's value 
+
+<b>:checked</b> targets the checked state of a radio button or checkbox
+
+<b>:disabled</b> targets disabled text fields
+
+*/

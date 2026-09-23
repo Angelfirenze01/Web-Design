@@ -1,0 +1,124 @@
+/* Attribute Selectors -------------
+
+
+[class] {
+  color: #f00;
+}
+
+form[class="form-contact] {
+  padding: 20px 24px;
+  background: #f4f7f8;
+}
+
+div[id="container"] {
+  max-width: 500px;
+  margin: auto;
+}
+
+.form-contact {
+padding: 20px 24px;
+background: #f4f7f8;
+}
+
+#container {
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="text"] {
+  background: #fdfee6;
+}
+
+input[type="placeholder"] {
+  background: #fdfee6;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+*/
+
+input[type="email"] {
+  background: #fdfee6;
+}
+
+a[target="_blank"] {
+  color: #39add1;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/* D[on't]R[epeat]Y[ourself] Classes ---------------- */
+
+.br {
+  border-radius: .5em;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+ /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: .75;
+}
+
+.default {
+  background-color: #52bab3;
+}
+
+.error {
+  background-color: #ff784f;
+}
+
+@media (min-width: 769px) {
+  .inln {
+  width: auto;
+  display: inline-block;
+  }
+
+  .btn + .btn {
+  margin-left: 20px;
+}
+
+/* Combinators ------------- */
+
+form > a {
+  font-size: .7em;
+}
+
+h1 ~ label {
+  background: #ff6347;
+  color: #fff;
+  padding: 5px;
+}
+
+/* REVIEW 
+
+   * Don't Repeat Yourself 
+
+   * We can define specific child and sibling selectors with combinators
+
+   ">" targets a direct child of an element
+
+   "+" targets immediate siblings 
+
+   "~" targets all the specified siblings that follow an element */
